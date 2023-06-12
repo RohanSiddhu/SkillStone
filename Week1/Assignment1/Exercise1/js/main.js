@@ -1,21 +1,17 @@
 // Create delete button
 let taskList = document.getElementsByTagName('li');
-let i;
-for (i = 0; i < taskList.length; i++) {
-    // let span = document.createElement("span");
+for (let i = 0; i < taskList.length; i++) {
     let btn = document.createElement("button");
     btn.className = "btn_delete";
     btn.textContent = "X";
-    // span.className = "delete";
-    // span.appendChild(btn);
     taskList[i].appendChild(btn);
 }
 
+// Delete button action: Hide list item.
 let deleteBtnList = document.getElementsByClassName("btn_delete");
-for (let i = 0; i < deleteBtnList.length; i++) {
-    deleteBtnList[i].onclick = function() {
+for (let element of deleteBtnList) {
+    element.onclick = function() {
         let el = this.parentElement;
-        console.log(el.tagName);
-        el.display.style = "none";
+        el.style.display = "none";      // Hide the list element
     }
 }
