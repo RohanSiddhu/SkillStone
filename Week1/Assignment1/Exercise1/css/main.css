@@ -27,20 +27,23 @@ input {
     padding: 2mm;
     border: none;
     border-radius: 0;
-    width: 74%;
+    width: 73%;
     font-size: 16pt;
 }
 
 button {
     cursor: pointer;
-    margin: 0;
-    padding: 2mm;
     border: none;
     border-radius: 0;
-    width: 24%;
-    font-size: 16pt;
     text-align: center;
     transition: 0.3s;
+}
+
+button#btn_add {
+    margin: 2mm 2mm 2mm 2mm;
+    padding: 2mm;
+    width: 23%;
+    font-size: 16pt;
 }
 
 ul {
@@ -50,7 +53,7 @@ ul {
 
 ul li {
     cursor: pointer;
-    padding: 2mm 2mm 2mm 1.5cm;
+    padding: 2mm 0 2mm 1.5cm;
     font-size: 18pt;
     background: #eee;
     transition: 0.3s;
@@ -63,4 +66,24 @@ ul li:nth-child(odd) {
 
 ul li:hover {
     background: #ddd;
+}
+
+ul li.checked {
+    background: #888;
+    color: #eee;
+    text-decoration: line-through;
+}
+
+.btn_delete {
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*top: 0;*/
+    float: right;
+    padding: 0 4mm 0 4mm;
+    font-size: 18pt;
+}
+
+.btn_delete:hover {
+    background-color: darkorange;
+    color: #ddd;
 }
