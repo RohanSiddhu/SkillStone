@@ -5,7 +5,7 @@ body {
 
 header {
     margin: 0;
-    padding: 2mm 1.5cm 5mm 1.5cm;
+    padding: 2mm 1.3cm 5mm 1.3cm;
     text-align: center;
     background: darkorange;
 }
@@ -17,17 +17,18 @@ h1 {
 }
 
 label {
-    margin: 0;
+    margin: 0 2mm 0 2mm;
     padding: 0;
-    align-content: center;
+    display: flex;
+    justify-content: center;
 }
 
-input {
+#task_input {
     margin: 0;
     padding: 2mm;
     border: none;
     border-radius: 0;
-    width: 73%;
+    width: 75%;
     font-size: 16pt;
 }
 
@@ -39,11 +40,25 @@ button {
     transition: 0.3s;
 }
 
-button#btn_add {
-    margin: 2mm 2mm 2mm 2mm;
+#btn_add {
+    margin: 0 1mm 0 1mm;
     padding: 2mm;
-    width: 23%;
+    width: 25%;
     font-size: 16pt;
+}
+
+/* Search Input*/
+#search_input {
+    background-image: url("../img/searchicon.png");
+    background-position: 1mm 0;
+    background-size: 1.1cm;
+    background-repeat: no-repeat;
+    margin: 3mm 0 3mm 0;
+    padding: 2mm 3mm 2mm 1.3cm;
+    border: 2px solid #ddd;
+    border-radius: 0;
+    width: 100%;
+    font-size: 12pt;
 }
 
 ul {
@@ -75,10 +90,8 @@ ul li.checked {
 }
 
 .btn_delete {
-    /*position: absolute;*/
-    /*right: 0;*/
-    /*top: 0;*/
     float: right;
+    margin: 0 3mm 0 0;
     padding: 0 4mm 0 4mm;
     font-size: 18pt;
 }
