@@ -1,0 +1,15 @@
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 255, 0.4);
+}
+
+.main-header h1 {
+    color: #eee;
+    text-align: center;
+    margin: 0;
+    padding: 0.5em 0;
+}
