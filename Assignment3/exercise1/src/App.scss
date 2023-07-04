@@ -1,0 +1,13 @@
+$primary-bg: #3e4551;
+$primary-font-color: #ffd969;
+$primary-font-family: sans-serif;
+
+html, body {
+  background: $primary-bg;
+  color: $primary-font-color;
+}
+
+.App {
+  font-family: $primary-font-family;
+  text-align: center;
+}
