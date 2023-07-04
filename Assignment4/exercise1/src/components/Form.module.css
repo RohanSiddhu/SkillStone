@@ -1,0 +1,47 @@
+.form {
+    /*width: 35%;*/
+    min-width: 20rem;
+    max-width: 40%;
+    margin: 4rem auto;
+}
+
+.fieldset {
+    border: 1px solid #eee;
+    border-radius: 0.5rem;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.legendH2 {
+    color: #ffd969;
+}
+
+.inputDiv {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.label {
+    margin-bottom: 1.5rem;
+    color: #eee;
+    font-weight: bold;
+}
+
+.input {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border: 1px solid #eee;
+    border-radius: 0.3rem;
+}
+
+.submitButton {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border: 1px solid #eee;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+}
