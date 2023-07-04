@@ -1,0 +1,58 @@
+.signupForm {
+    min-width: 20rem;
+    max-width: 35%;
+    margin: 2rem auto;
+    background: #0005;
+    border: 1px solid #777;
+    box-shadow: #0004 0 5px 15px;
+    border-radius: 0.5rem;
+}
+
+.formHeading {
+    margin: 0 0 0.5rem 0;
+    padding: 0.5rem;
+    color: #fffd;
+    text-align: center;
+    border-bottom: 1px solid #777;
+}
+
+.label {
+    display: block;
+    font-size: medium;
+    padding: 0 0.8rem;
+    color: #fffa;
+}
+
+.inputDiv {
+    display: flex;
+    padding: 0 0.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.input {
+    width: 100%;
+    background: #fffd;
+    border: 0;
+    border-radius: 0.2rem;
+    font-size: medium;
+    padding: 5px;
+    margin: 2px;
+}
+
+.input-gender {
+    padding: 0.5rem 0.8rem;
+    color: #fffa;
+}
+
+.radioDiv {
+    margin: 0 auto;
+}
+
+.submitBtn {
+    display: block;
+    margin: 1rem auto 0.5rem auto;
+    padding: 0.5rem;
+    border: 1px solid #eee;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+}
