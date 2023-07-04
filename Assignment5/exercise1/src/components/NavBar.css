@@ -1,0 +1,33 @@
+nav {
+    background: #3e4551;
+    padding: 1rem 0;
+}
+
+ul {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin: 0;
+}
+
+ul li a {
+    color: #fffd;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    font-weight: bold;
+    font-size: larger;
+}
+
+ul li a:hover {
+    background: rgba(1, 1, 1, 0.2);
+    color: #fffa;
+}
+
+ul li a.active {
+    color: #ffd969;
+}
