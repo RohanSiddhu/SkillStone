@@ -1,0 +1,18 @@
+h2 {
+    margin: 2.5rem;
+    color: rgba(255, 127, 51, 1.0);
+    text-align: center;
+}
+
+p {
+    width: fit-content;
+    min-width: 10rem;
+    max-width: 75%;
+    margin: auto;
+    padding: 0.5rem;
+    color: #ffd969;
+    font-size: 1.5rem;
+    border: thin solid rgba(255, 127, 51, 1.0);
+    border-radius: 0.5rem;
+    text-align: center;
+}
