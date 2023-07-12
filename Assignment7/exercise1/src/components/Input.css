@@ -1,0 +1,57 @@
+form {
+  width: fit-content;
+  min-width: 15rem;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  border: thin solid rgba(255, 127, 51, 1.0);
+  border-radius: 0.5rem;
+}
+
+.input-userId-lb {
+  display: block;
+  color: rgba(255, 127, 51, 1.0);
+  padding: 0.5rem 0.5rem 1.5rem 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.input-div {
+  width: fit-content;
+  margin: auto;
+}
+
+#input-userId {
+  background: #fffd;
+  color: #000c;
+  width: 5rem;
+  padding: 0.3rem;
+  border: thin solid rgba(255, 127, 51, 1.0);
+  border-radius: 0.3rem;
+  font-size: 1.3rem;
+}
+
+.submit-btn {
+  background: rgba(51, 127, 76, 1.0);
+  color: #ffd969;
+  margin: 0 1rem;
+  padding: 0.3rem;
+  border: thin solid rgba(255, 127, 51, 1.0);
+  border-radius: 0.3rem;
+  font-size: 1.3rem;
+}
+
+.submit-btn:hover {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 11px 1px rgba(0, 0, 0, 0.3);
+}
+
+.submit-btn:active {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#invalid-msg {
+  color: rgba(255, 127, 51, 1.0);
+  margin: 0.5rem 0;
+  height: 1rem;
+  font-size: 1rem;
+}
