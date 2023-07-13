@@ -46,7 +46,7 @@ const App = () => {
   const post = posts
     .filter(post => post.id === postId)
     .map((post) => (
-      <div key={"comment-post"}>
+      <div key={"comment-post"} className={"comment-post"}>
         <p>{post.id}: {post.title}</p>
         <p>{post.body}</p>
       </div>
@@ -59,10 +59,11 @@ const App = () => {
       />
       <h2>Posts</h2>
       {postList}
-      <h2>Comments</h2>
-      {post}
-      <hr/>
-      {commentList}
+      <br/><h2>Comments</h2>
+      <div className={"comment-section"}>
+        {post}
+        {commentList}
+      </div>
     </div>
   );
 };

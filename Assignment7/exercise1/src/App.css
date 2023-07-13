@@ -1,11 +1,21 @@
 h2 {
   color: rgba(255, 127, 51, 1.0);
+  margin-left: 10%;
+  text-decoration: underline;
 }
 
 p {
   color: #ffd969dd;
 }
 
-hr {
-  color: rgba(255, 127, 51, 1.0);
+.comment-section {
+  width: 80%;
+  margin: 1rem auto 2rem auto;
+  padding: 0.5rem;
+}
+
+.comment-post {
+  padding: 0.5rem;
+  border: thin solid rgba(255, 127, 51, 1.0);
+  border-radius: 1rem;
 }

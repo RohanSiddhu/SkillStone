@@ -1,2 +1,31 @@
-.post p {
+.post {
+  width: 80%;
+  padding: 1rem;
+  margin: 1rem auto;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 11px 1px rgba(0, 0, 0, 0.3);
+}
+
+.post-title {
+  font-weight: bold;
+}
+
+.post-comment-btn {
+  background: rgba(51, 127, 76, 1.0);
+  color: #ffd969;
+  margin: 0 0.5rem;
+  padding: 0.3rem;
+  border: thin solid rgba(255, 127, 51, 1.0);
+  border-radius: 0.3rem;
+  font-size: 1rem;
+}
+
+.post-comment-btn:hover {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 11px 1px rgba(0, 0, 0, 0.3);
+}
+
+.post-comment-btn:active {
+  background: rgba(0, 0, 0, 0.2);
 }

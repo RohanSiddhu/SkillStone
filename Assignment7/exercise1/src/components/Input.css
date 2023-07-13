@@ -1,6 +1,7 @@
 form {
-  width: fit-content;
-  min-width: 15rem;
+  width: 50%;
+  min-width: 18rem;
+  max-width: 48rem;
   margin: 1rem auto;
   padding: 0.5rem;
   border: thin solid rgba(255, 127, 51, 1.0);
@@ -13,6 +14,7 @@ form {
   padding: 0.5rem 0.5rem 1.5rem 0.5rem;
   font-size: 1.5rem;
   font-weight: bolder;
+  text-align: center;
 }
 
 .input-div {
